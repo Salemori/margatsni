@@ -4,3 +4,76 @@
     margin: 0;
 }
 
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav_border {
+    display: grid;
+    grid-template-columns: 0.6fr 2fr ;
+    align-items: center;
+    justify-items:right;
+    border-bottom: 1px solid rgb(219,219,219);
+    padding: 0.7rem 1.5rem 0.7rem 0rem;
+   
+
+}
+
+.logo{
+    padding-top: 0.5rem;
+}
+
+.nav_section2{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr ;
+    align-items:center;
+    justify-items:center;
+    
+}
+
+.input_div{
+    width: 16.5rem;
+    height: 38;
+    padding:  10px 0px 7px 15px;
+    background: rgb(239,239,239);
+    border: 1px solid rgb(239,239,239);
+    border-radius: 9px;
+   
+}
+
+.inner_input{
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+    /* margin-right:  30rem; */
+}
+.inner_input p{
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+#nav_icons{
+    display: flex;
+    column-gap: 1.3rem;
+    margin-right: 5rem;
+   
+}
+#nav_icons image{
+    padding-right: 4rem;
+}
+.profile_image img{
+    width: 25px;
+    height: 24px;
+    border: 1px solid white;
+    border-radius: 100px;
+    /* padding-top: 2px; */
+
+
+}
+.profile_image{
+    margin-top: 4px;
+    
+}
