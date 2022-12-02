@@ -111,6 +111,7 @@ nav{
     column-gap:  17px;
     border-radius: 10px;
     background: rgb(255,255,255);
+    margin-bottom: 15px;
 
     /* padding-top: 16px;
     padding-left:16px ;
@@ -149,7 +150,61 @@ text-align: center;
 
 
 /* feed */
+.feed_card{
+    height: 880px;
+    border: 1px solid rgb(239,239,239);
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.botton_line{
+    height: 56px;
+    border-bottom: 1px solid rgb(239,239,239);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 0.6rem;
+}
+.round_colour{
+    width: 39px;
+    height: 38px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+  
+    border-color: rgb(249,15,127)  rgb(249,15,127)  rgb(255,115,6) rgb(255,185,0);
+    padding-top: 1.8px;
+    padding-left: 0.2px;
+    
+}
 
+.outline{
+    outline:auto white;
+    outline-offset: -3px;
+    /* outline-width: 10px; */
+}
+.flex_in{
+    display: flex;
+    /* flex-direction: row; */
+
+    justify-items:right;
+    align-items:center;
+    gap: 22rem;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+.flex_in div a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(38,38,38);
+
+}
+.flex_in div a img{
+    border: 1px solid blue;
+    width: 2rem;
+    padding-top: 9px;
+}
 
 .flex_all{
     display: flex;
@@ -159,10 +214,10 @@ text-align: center;
     gap: 1.5rem;
     /* height: 100%; */
 }
-.mid_left{
+/* .mid_left{
     border: 1px solid gray;
 
-}
+} */
 
 /* Right body section */
 .mid_right{
@@ -204,9 +259,9 @@ text-align: center;
     margin-bottom: 1rem;margin-bottom: 1rem;
 }
 
-.suggested img{
-    width: 32px;
-    height: 31px;
+.suggested img, .botton_line a img{
+    width: 34px;
+    height: 33px;
     border: 1px solid white;
     border-radius: 100px;
 }
