@@ -60,13 +60,7 @@ nav{
     gap: 0.5rem;
     /* margin-right:  30rem; */
 }
-.inner_input p{
-    color: rgb(142, 142, 142);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
 
-}
 #nav_icons{
     display: flex;
     column-gap: 1.3rem;
@@ -325,10 +319,22 @@ margin-right: 5px;
 
 }
 
-.base input{
+.base input, .inner_input input{
     border:none ;
     outline: none;
+   
     /* width: 1px; */
+}
+.inner_input input{
+    background:rgb(239,239,239);
+    width: 13rem;
+}
+.inner_input input::placeholder{
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
 }
 /* .mid_left{
     border: 1px solid gray;
