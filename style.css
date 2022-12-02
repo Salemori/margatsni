@@ -155,6 +155,7 @@ text-align: center;
     border: 1px solid rgb(239,239,239);
     margin-bottom: 12px;
     border-radius: 10px;
+    width: 470px;
 }
 .botton_line{
     height: 56px;
@@ -164,6 +165,8 @@ text-align: center;
     align-items: center;
     justify-content:left;
     gap: 0.6rem;
+    background: rgb(255,255,255);
+    width: 470px;
 }
 .round_colour{
     width: 39px;
@@ -189,7 +192,7 @@ text-align: center;
 
     justify-items:right;
     align-items:center;
-    gap: 22rem;
+    gap: 19rem;
     padding-bottom: 5px;
     vertical-align: middle;
 }
@@ -201,7 +204,7 @@ text-align: center;
 
 }
 .flex_in div a img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 2rem;
     padding-top: 9px;
 }
@@ -210,10 +213,16 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content:center;
-    border: 1px solid blue;
+    border: 3px solid blue;
     gap: 1.5rem;
     /* height: 100%; */
 }
+.feed_image{
+    width: 470px;
+    height: 470px;
+
+}
+
 /* .mid_left{
     border: 1px solid gray;
 
