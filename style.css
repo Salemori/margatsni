@@ -151,11 +151,12 @@ text-align: center;
 
 /* feed */
 .feed_card{
-    height: 880px;
+    height: 780px;
     border: 1px solid rgb(239,239,239);
     margin-bottom: 12px;
-    border-radius: 10px;
+    border-radius: px;
     width: 470px;
+    background: white;
 }
 .botton_line{
     height: 56px;
@@ -166,7 +167,7 @@ text-align: center;
     justify-content:left;
     gap: 0.6rem;
     background: rgb(255,255,255);
-    width: 470px;
+    width: 468px;
 }
 .round_colour{
     width: 39px;
@@ -218,9 +219,69 @@ text-align: center;
     /* height: 100%; */
 }
 .feed_image{
-    width: 470px;
+    width: 468px;
     height: 470px;
 
+}
+.icon_cover{
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.icons a img{
+    margin-right: 15px;
+}
+.gray{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(142,142,142);
+    text-decoration: none;
+}
+.small{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(142,142,142);
+    text-decoration: none;
+
+}
+/* .big{
+    
+} */
+.black{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(38,38,38);
+
+}
+.bold{
+font-weight: 600;
+color: rgb(38,38,38);
+font-size: 14px;
+text-decoration: none;
+margin-right: 5px;
+}
+.faint_blue{
+    color: rgb(24,149,246);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.space{
+    margin-bottom: 15px;
+}
+.space_below{
+    margin-bottom: 8px;
+}
+
+
+.base{
+    /* height: 47px; */
+    background: white;
+    /* border:1px solid red; */
+    /* rgb(239,239,239); */
+}
+.base input{
+    border: 0px solid white;
 }
 
 /* .mid_left{
@@ -261,7 +322,7 @@ text-align: center;
 
 
 .inner_flex{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: 100%;
 }
 .see_all{
