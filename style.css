@@ -191,6 +191,22 @@ text-align: center;
     outline-offset: -3px;
     /* outline-width: 10px; */
 }
+#options{
+    margin-left: 1.9rem;
+}
+#options1{
+    margin-left: 0.4rem;
+}
+#options2{
+    margin-left: 3.7rem;
+}
+#options3{
+    margin-left: 1.1rem;
+}
+#options4{
+    margin-left: 2.5rem;
+}
+
 .flex_in{
     display: flex;
    
